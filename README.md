@@ -41,3 +41,7 @@ Here is the sample of the record received by lambda function:
 How often the data is loaded into the target destination depends upon the Buffer Size and Buffer Time. The batch is loaded in the target when either of the two is met (either Buffer Size or Buffer Time is exceeded)
 
 The architectural design of the entire data pattern is added below for ease of understanding
+
+<p align="center">
+  <img src="/assets/real-time-aws-data-pattern.png" />
+</p>
